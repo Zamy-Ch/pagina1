@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f7f7fb;
+}
+nav{
+    padding: 3px;
+}
+.logo{
+    background: url(../img/logo_bg-removebg-preview.png) no-repeat 80% 50%;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+    float: left;
+    border: solid 10px #f54131;
+}
+
+.menu{
+    position:absolute;
+    right: 100px;
+    padding: 40px;
+
+    color: #9f2500;
+}
+.menu a{
+    width: 300px;
+    color: rgb(8, 37, 37);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    transition: color 1s;
+}
+.menu a:hover{
+    color: rgb(255, 0, 0);
+}
+
+header{
+    background-image: url(../img/bosque.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 120px;
+}
+
+.til{
+    background-color: beige;
+    width: 75%;
+    padding: 10px;
+    margin: 130px;
+
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
